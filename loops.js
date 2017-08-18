@@ -17,3 +17,13 @@ function whileLoop (n) {
   }
   return 'done';
 }
+
+function doWhileLoop(array) {
+  do {
+    array.pop();
+  } while (maybeTrue && array.length > 0)
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
